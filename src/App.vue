@@ -1,15 +1,13 @@
 <template>
   <!-- Acá va el HTML -->
 
-  <Contador></Contador>
-  <ListaDeTareas></ListaDeTareas>
+  <MainView></MainView>
 </template>
 
 <script setup>
   /*Acá va la lógica en JavaScript*/ 
 
-  import Contador from './components/Contador.vue'
-  import ListaDeTareas from './components/ListaDeTareas.vue'
+  import MainView from './views/MainView.vue'
 </script>
 
 <style scoped>
